@@ -10,4 +10,8 @@ https://jsonplaceholder.typicode.com/
 
 ## Docs
 
+https://react-query.tanstack.com/reference/useQuery
+
 https://react-query.tanstack.com/guides/ssr
+
+https://react-query.tanstack.com/guides/query-retries
