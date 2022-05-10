@@ -25,3 +25,7 @@ https://react-query.tanstack.com/guides/query-retries
 ### Query Dev Tools
 
 https://react-query.tanstack.com/devtools
+
+### Prefetch Query
+
+https://react-query.tanstack.com/reference/QueryClient#queryclientprefetchquery
