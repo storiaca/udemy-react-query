@@ -29,3 +29,7 @@ https://react-query.tanstack.com/devtools
 ### Prefetch Query
 
 https://react-query.tanstack.com/reference/QueryClient#queryclientprefetchquery
+
+### Mutations
+
+https://react-query.tanstack.com/guides/mutations
