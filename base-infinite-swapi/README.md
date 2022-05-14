@@ -20,3 +20,7 @@ This app uses the [Star Wars API](https://swapi.dev/) server.
 ## Qucick Start
 
 https://react-query.tanstack.com/quick-start
+
+## React Infinite Scroller
+
+https://www.npmjs.com/package/react-infinite-scroller
