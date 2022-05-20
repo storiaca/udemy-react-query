@@ -13,3 +13,7 @@ Run `npm start`. The app will be found at [http://localhost:3000]. You will prob
 ## Custom Hooks
 
 https://react-query.tanstack.com/examples/custom-hooks
+
+## Chakra UI Toast
+
+https://chakra-ui.com/docs/components/feedback/toast
