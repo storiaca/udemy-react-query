@@ -17,3 +17,11 @@ https://react-query.tanstack.com/examples/custom-hooks
 ## Chakra UI Toast
 
 https://chakra-ui.com/docs/components/feedback/toast
+
+## React Query Types
+
+https://github.com/tannerlinsley/react-query/blob/master/src/core/types.ts
+
+## React Error Boundaries
+
+https://reactjs.org/docs/error-boundaries.html
