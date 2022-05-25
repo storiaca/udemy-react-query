@@ -1,18 +1,20 @@
 // @ts-nocheck
-import dayjs from 'dayjs';
-import { Dispatch, SetStateAction, useState } from 'react';
+import dayjs from "dayjs";
+import { Dispatch, SetStateAction, useState } from "react";
 
-import { axiosInstance } from '../../../axiosInstance';
-import { queryKeys } from '../../../react-query/constants';
-import { useUser } from '../../user/hooks/useUser';
-import { AppointmentDateMap } from '../types';
-import { getAvailableAppointments } from '../utils';
-import { getMonthYearDetails, getNewMonthYear, MonthYear } from './monthYear';
+import { useQuery } from "react-query";
+
+import { axiosInstance } from "../../../axiosInstance";
+import { queryKeys } from "../../../react-query/constants";
+import { useUser } from "../../user/hooks/useUser";
+import { AppointmentDateMap } from "../types";
+import { getAvailableAppointments } from "../utils";
+import { getMonthYearDetails, getNewMonthYear, MonthYear } from "./monthYear";
 
 // for useQuery call
 async function getAppointments(
   year: string,
-  month: string,
+  month: string
 ): Promise<AppointmentDateMap> {
   const { data } = await axiosInstance.get(`/appointments/${year}/${month}`);
   return data;
@@ -63,14 +65,19 @@ export function useAppointments(): UseAppointments {
   /** ****************** START 3: useQuery  ***************************** */
   // useQuery call for appointments for the current monthYear
 
-  // TODO: update with useQuery!
+  //  update with useQuery!
   // Notes:
   //    1. appointments is an AppointmentDateMap (object with days of month
   //       as properties, and arrays of appointments for that day as values)
   //
   //    2. The getAppointments query function needs monthYear.year and
   //       monthYear.month
-  const appointments = {};
+  const fallback = {};
+
+  const { data: appointments = fallback } = useQuery(
+    queryKeys.appointments,
+    () => getAppointments(monthYear.year, monthYear.month)
+  );
 
   /** ****************** END 3: useQuery  ******************************* */
 
