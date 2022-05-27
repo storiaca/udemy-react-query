@@ -25,3 +25,7 @@ https://github.com/tannerlinsley/react-query/blob/master/src/core/types.ts
 ## React Error Boundaries
 
 https://reactjs.org/docs/error-boundaries.html
+
+## React Query Data Transformations
+
+https://tkdodo.eu/blog/react-query-data-transformations
