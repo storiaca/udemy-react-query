@@ -33,3 +33,7 @@ https://tkdodo.eu/blog/react-query-data-transformations
 ## Important Defaults
 
 https://react-query.tanstack.com/guides/important-defaults
+
+## Auto Refetching
+
+https://react-query.tanstack.com/examples/auto-refetching
