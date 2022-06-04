@@ -37,3 +37,7 @@ https://react-query.tanstack.com/guides/important-defaults
 ## Auto Refetching
 
 https://react-query.tanstack.com/examples/auto-refetching
+
+## Dependent Queries
+
+https://react-query.tanstack.com/guides/dependent-queries
