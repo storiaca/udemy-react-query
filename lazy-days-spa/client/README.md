@@ -45,3 +45,7 @@ https://react-query.tanstack.com/guides/dependent-queries
 ## Using initialData
 
 https://react-query.tanstack.com/guides/initial-query-data#using-initialdata-to-prepopulate-a-query
+
+## Dependent Queries
+
+https://react-query.tanstack.com/guides/dependent-queries
