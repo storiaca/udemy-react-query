@@ -49,3 +49,7 @@ https://react-query.tanstack.com/guides/initial-query-data#using-initialdata-to-
 ## Dependent Queries
 
 https://react-query.tanstack.com/guides/dependent-queries
+
+## useIsMutating
+
+https://react-query.tanstack.com/reference/useIsMutating
