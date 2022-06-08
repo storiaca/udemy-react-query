@@ -53,3 +53,11 @@ https://react-query.tanstack.com/guides/dependent-queries
 ## useIsMutating
 
 https://react-query.tanstack.com/reference/useIsMutating
+
+## useMutation
+
+https://react-query.tanstack.com/reference/useMutation
+
+## Mutations
+
+https://react-query.tanstack.com/guides/mutations
