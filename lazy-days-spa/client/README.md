@@ -61,3 +61,7 @@ https://react-query.tanstack.com/reference/useMutation
 ## Mutations
 
 https://react-query.tanstack.com/guides/mutations
+
+## Query Invalidation
+
+https://react-query.tanstack.com/guides/query-invalidation
