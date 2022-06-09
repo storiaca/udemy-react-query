@@ -65,3 +65,11 @@ https://react-query.tanstack.com/guides/mutations
 ## Query Invalidation
 
 https://react-query.tanstack.com/guides/query-invalidation
+
+## Query Keys
+
+https://react-query.tanstack.com/guides/query-keys
+
+## Query Matching with invalidateQueries
+
+https://react-query.tanstack.com/guides/query-invalidation#query-matching-with-invalidatequeries
