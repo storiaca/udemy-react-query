@@ -73,3 +73,11 @@ https://react-query.tanstack.com/guides/query-keys
 ## Query Matching with invalidateQueries
 
 https://react-query.tanstack.com/guides/query-invalidation#query-matching-with-invalidatequeries
+
+## Optimistic Updates
+
+https://react-query.tanstack.com/guides/optimistic-updates
+
+## Query Cancellation
+
+https://react-query.tanstack.com/guides/query-cancellation
