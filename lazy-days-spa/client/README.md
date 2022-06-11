@@ -81,3 +81,19 @@ https://react-query.tanstack.com/guides/optimistic-updates
 ## Query Cancellation
 
 https://react-query.tanstack.com/guides/query-cancellation
+
+## Query Cancellation
+
+https://react-query.tanstack.com/guides/query-cancellation
+
+## Axios Cancellation
+
+https://axios-http.com/docs/cancellation
+
+## MDN AbortController
+
+https://developer.mozilla.org/en-US/docs/Web/API/AbortController
+
+## MDN Browser compatibility
+
+https://developer.mozilla.org/en-US/docs/Web/API/AbortController#browser_compatibility
