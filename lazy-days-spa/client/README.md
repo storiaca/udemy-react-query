@@ -97,3 +97,13 @@ https://developer.mozilla.org/en-US/docs/Web/API/AbortController
 ## MDN Browser compatibility
 
 https://developer.mozilla.org/en-US/docs/Web/API/AbortController#browser_compatibility
+
+## React Query Testing
+
+https://tkdodo.eu/blog/testing-react-query
+
+https://react-query.tanstack.com/guides/testing
+
+## Mock Service Worker
+
+https://mswjs.io/docs/getting-started/install
