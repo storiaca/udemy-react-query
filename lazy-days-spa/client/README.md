@@ -107,3 +107,9 @@ https://react-query.tanstack.com/guides/testing
 ## Mock Service Worker
 
 https://mswjs.io/docs/getting-started/install
+
+## React library testing hooks
+
+https://react-hooks-testing-library.com/
+
+https://github.com/testing-library/react-hooks-testing-library
